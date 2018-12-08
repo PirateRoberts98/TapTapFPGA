@@ -19,7 +19,7 @@ use ieee.std_1164.all ;
 entity game_clock is 
     port(
     clk: in std_logic ;
-    clk_game : std_logic  );
+    clk_game : out std_logic  );
 end game_clock ; 
 
 

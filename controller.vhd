@@ -3,7 +3,10 @@ use IEEE.Std_Logic_1164.all;
 
 entity gameCtr is
 port(
-     keyInputs : in std_logic_vector(2 downto 0);
+	 --key_2 : in std_logic ;
+	 --key_1 : in std_logic ;
+	 --key_0 : in std_logic ;
+     keyInputs : in std_logic_vector(2 downto 0); -- Vector version of Keys 
 	 CLK : in std_logic;
 	 EN : in std_logic;
 	 RST : in std_logic;
